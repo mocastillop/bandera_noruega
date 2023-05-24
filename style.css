@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(148, 145, 144);
+}
+
+h1 {
+    color: white;
+}
+
+.bandera-flex {
+    display: block;
+    background-color: #00205B;
+    width: 440px;
+    height: 320px;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.rojo {
+    background-color: #9c0000;
+}
+
+.arriba {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 440px;
+    height: 160px;
+}
+
+.abajo {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 440px;
+    height: 160px;
+}
+
+.pq {
+    width: 140px;
+    height: 140px;
+}
+
+.gr {
+    width: 260px;
+    height: 140px;
+}
+
+.pq2 {
+    width: 120px;
+    height: 120px;
+}
+
+.gr2 {
+    width: 240px;
+    height: 120px;
+}
