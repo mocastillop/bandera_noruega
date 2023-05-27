@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(148, 145, 144);
+    background-color: rgb(92, 92, 92);
 }
 
 h1 {
@@ -7,10 +7,9 @@ h1 {
 }
 
 .bandera-flex {
-    display: block;
+    display: inline-flex;
+    flex-direction: column;
     background-color: #00205B;
-    width: 440px;
-    height: 320px;
 }
 
 .blanco {
@@ -24,34 +23,39 @@ h1 {
 .arriba {
     display: inline-flex;
     justify-content: space-between;
-    width: 440px;
-    height: 160px;
 }
 
 .abajo {
     display: inline-flex;
     justify-content: space-between;
-    align-items: end;
-    width: 440px;
-    height: 160px;
 }
 
-.pq {
-    width: 140px;
-    height: 140px;
-}
-
-.gr {
-    width: 260px;
-    height: 140px;
+.pq1 {
+    margin: 0px 0px 50px 0px;
+    padding: 0px 20px 20px 0px;
 }
 
 .pq2 {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 0px;
+}
+
+.gr1 {
+    margin: 0px 0px 50px 50px;
+    padding: 0px 0px 20px 20px;
+}
+
+.gr2{
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 20px;   
+}
+
+.pq3 {
     width: 120px;
     height: 120px;
 }
 
-.gr2 {
+.gr3 {
     width: 240px;
     height: 120px;
 }
